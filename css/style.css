@@ -35,10 +35,12 @@
         margin-top: 16px;
         width: 24px;
         height: 24px;
+        cursor: progress;
     }
     .section-1-container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
         text-align: center;
@@ -46,6 +48,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        gap: 10px;
     }
     .section-1-text {
         color: white;
@@ -55,22 +58,23 @@
         font-size: 36px;
         width: 216px;
         height: 160px;
-        margin: 128px 52px;
+        margin: 64px 28px;
         text-align: center;
     }
     .Order-service-btn {
         background-color: #4D5AE5;
         border-radius: 4px;
-        gap: 10px;
         border: none;
         color: white;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.04em;
         font-weight: 500;
-        margin: 16px 32px;
-        width: 169px;
+        margin-bottom: 56px;
+        min-width: 169px;
         height: 56px;
+        text-align: center;
+        cursor: pointer;
     }
     .portfolio-title {
         color: #2E2F42;
@@ -99,5 +103,26 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         gap: 72px;
+        text-align: left;
+        background-color: #fff;
+    }
+    .section-3-title {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        align-items: center;
+        color: #2E2F42;
+    }
+    .section-3-container {
+        background-color: #F4F4FD;
+        justify-content: center;
+        align-items: center;
+        margin-top: 72px;
+    }
+    .team-member-svg {
+        background-color: #4D5AE5;
     }
 }
