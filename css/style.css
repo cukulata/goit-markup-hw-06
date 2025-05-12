@@ -47,7 +47,10 @@
         letter-spacing: 0.02em;
         font-weight: 700;
         font-size: 36px;
-        width: 100;
+        width: 216px;
+        height: 160px;
+        margin: 128px 52px;
+        text-align: center;
     }
     .Order-service-btn {
         background-color: #4D5AE5;
